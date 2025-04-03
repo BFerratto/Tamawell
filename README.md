@@ -1,3 +1,5 @@
+![Alt text](public/tamawellLogo.png)
+
 # Tamawell
 A personal companion to track your habits and hint your mood based on that!
 Based on Tamagotchi
