@@ -1,6 +1,3 @@
-// Frontend: React App (using Vite or Create React App)
-// Basic structure with a form to input user data and display Tamagotchi mood
-
 import { useState } from 'react';
 
 function App() {
@@ -32,7 +29,7 @@ function App() {
 
   return (
     <div className="p-4 max-w-md mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Tamagotchi Mood Tracker</h1>
+      <h1 className="text-2xl font-bold mb-4">Tamawell Mood Tracker</h1>
       <form onSubmit={handleSubmit} className="space-y-2">
         <input
           type="number"
@@ -56,7 +53,7 @@ function App() {
           className="w-full p-2 border rounded"
         />
         <button type="submit" className="bg-blue-500 text-white px-4 py-2 rounded">
-          Update Tamagotchi
+          Update Tamawell
         </button>
       </form>
       {mood && (
